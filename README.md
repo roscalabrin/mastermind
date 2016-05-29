@@ -1,1 +1,3 @@
-# This was a project done during my first week of Module 1 at Turing
+# Mastermind
+
+This was my first project at Turing (week 1 of Module 1).
