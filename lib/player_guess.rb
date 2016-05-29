@@ -1,4 +1,4 @@
-class Guess
+class PlayerGuess
 attr_accessor :player_guess
 
   def initialize(secret, player_guess, starting_time, number_of_guesses, level)

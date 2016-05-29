@@ -44,7 +44,7 @@ class Mastermind
     if player_guess.length == level
       starting_time = Time.now
       number_of_guesses = 1
-      Guess.new(secret, player_guess, starting_time, number_of_guesses, level)
+      PlayerGuess.new(secret, player_guess, starting_time, number_of_guesses, level)
     elsif player_guess == "q" || player_guess == "quit"
       exit_game
     else
